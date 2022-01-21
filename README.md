@@ -7,6 +7,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/50666703/145588697-8f8cb6cc-f28e-425e-8d3f-a136fdd52046.png"/>
 
+## Disclaimer
 <b>Gluclas</b> is not an approved medical software nor a medical device. It should be considered as an investigational tool aimed at providing infusion rate suggestions that must be critically interpreted, reviewed, and verified by the clinician in charge of conducting the experiment, who remains the ultimate responsible for clinical decisions. The authors of this software decline any responsibility for medical consequences of inadequate suggestions.
 
 ## Requirements
