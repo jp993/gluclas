@@ -13,7 +13,7 @@
 ## Requirements
 <b>Gluclas</b> is developed in MATLAB®, but no license is required to run the software. All <b>Gluclas</b> requires is the MATLAB® Runtime (v. 2021b or higher) to be installed in your computer. 
 
-You can download the appropriate version of the MATLAB® Runtime for your OS [here](mathworks.com/products/compiler/matlab-runtime.html).
+You can download the appropriate version of the MATLAB® Runtime for your OS [here](https://it.mathworks.com/products/compiler/matlab-runtime.html).
 
 ## Software description
 The two main components of <b>Gluclas</b> are a proportional-integral-derivative (PID) control algorithm, which is used to compute GIR suggestions, and a Graphic User Interface (GUI) for data recording, visualization, and correction. An extensive description of the control algorithm can be found in [xx] (PAPER UNDER REVIEW). The GUI is minimalistic, and the computation cost of the control algorithm is negligible – which reduces the hardware requisites for running the software. 
