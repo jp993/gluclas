@@ -11,12 +11,12 @@
 <b>Gluclas</b> is not an approved medical software nor a medical device. It should be considered as an investigational tool aimed at providing infusion rate suggestions that must be critically interpreted, reviewed, and verified by the clinician in charge of conducting the experiment, who remains the ultimate responsible for clinical decisions. The authors of this software decline any responsibility for medical consequences of inadequate suggestions.
 
 ## Requirements
-<b>Gluclas</b> is developed in MATLAB®, but no license is required to run the software. All <b>Gluclas</b> requires is the MATLAB® Runtime (v. 2021b or higher) to be installed in your computer. 
+<b>Gluclas</b> is developed in MATLAB®, but no license is required to run the software. All <b>Gluclas</b> requires is the MATLAB® Runtime (v. 9.11 or higher) to be installed in your computer. 
 
 You can download the appropriate version of the MATLAB® Runtime for your OS [here](https://it.mathworks.com/products/compiler/matlab-runtime.html).
 
 ## Software description
-The two main components of <b>Gluclas</b> are a proportional-integral-derivative (PID) control algorithm, which is used to compute GIR suggestions, and a Graphic User Interface (GUI) for data recording, visualization, and correction. An extensive description of the control algorithm can be found in [xx] (PAPER UNDER REVIEW). The GUI is minimalistic, and the computation cost of the control algorithm is negligible – which reduces the hardware requisites for running the software. 
+The two main components of <b>Gluclas</b> are a proportional-integral-derivative (PID) control algorithm, which is used to compute GIR suggestions, and a Graphic User Interface (GUI) for data recording, visualization, and correction. An extensive description of the control algorithm can be found in [here](https://www.sciencedirect.com/science/article/pii/S0169260722004850?via%3Dihub). The GUI is minimalistic, and the computation cost of the control algorithm is negligible – which reduces the hardware requisites for running the software. 
   
 ### Starting and protocol settings
 When starting a new experiment, a “Settings” window requests information about the subject and the protocol of the experiment. The “Patient data” section collects patients characteristics. The “Type of clamp” section allows to choose between one of three different GC types: “Hypoglycemic”, “Euglycemic” and “Hyperglycemic”. To help the user, the fields in the “Protocol settings” section are pre-filled with default settings based on the type of clamp and patient’s information. 
